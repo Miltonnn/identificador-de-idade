@@ -1,7 +1,8 @@
 # identificador-de-idade
-## https://miltonnn.github.io/identificador-de-idade/
 
-### Função que utilizei para calcular a idade e retornar, juntamente com uma imagem, de acordo com o gênero solicitado.
+<p>https://miltonnn.github.io/identificador-de-idade/</p>
+
+<p>Função que utilizei para calcular a idade e retornar, juntamente com uma imagem, de acordo com o gênero solicitado.</p>
 
 ```javascript
 function verificar() {
