@@ -102,4 +102,4 @@ function verificar() {
 
 ```
 
-<p>https://miltonnn.github.io/identificador-de-idade/</p>
+<p>Acessar -> https://miltonnn.github.io/identificador-de-idade/</p>
