@@ -1,0 +1,75 @@
+body {
+    background: rgb(0, 41, 95);
+    font: normal 15pt Arial;
+}
+
+header {
+    color: white;
+    text-align: center;
+    padding: 10px; /* Espaçamento adicional para melhor legibilidade em telas menores */
+}
+
+section {
+    background: rgb(245, 118, 59);
+    color: rgb(10, 10, 10);
+    border-radius: 5px;
+    padding: 15px;
+    max-width: 50%; /* A largura máxima da seção será 100% do dispositivo */
+    margin: 15px auto; /* Centraliza a seção horizontalmente e adiciona espaçamento ao redor */
+    box-shadow: 10px 10px 10px rgb(26, 25, 25);
+    text-align: center; /* Centraliza o conteúdo dentro da seção */
+}
+
+.card {
+    max-width: 600px; /* Limita a largura máxima do card a 600px na parte não responsiva */
+    margin: 0 auto; /* Centraliza o card horizontalmente na parte não responsiva */
+}
+
+div {
+    text-align: center;
+    padding: 8px;
+}
+
+footer {
+    color: white;
+    text-align: center;
+    font-style: italic;
+    border-radius: 10px; /* Reduzi o valor para 10px para manter a consistência */
+    padding: 10px; /* Espaçamento adicional para melhor legibilidade em telas menores */
+}
+
+img {
+    max-width: 60%; /* A imagem se ajustará à largura do dispositivo */
+    height: auto; /* A altura será ajustada automaticamente para manter a proporção */
+    border-radius: 2%; /* Reduzi o valor para 50% para evitar distorção em telas menores */
+}
+
+/* Adicione uma regra de media query apenas para ajustar estilos em telas menores, como celulares */
+@media (max-width: 768px) {
+    body {
+        font-size: 14pt; /* Reduzir o tamanho da fonte para melhorar a legibilidade em telas menores */
+    }
+
+    header {
+        font-size: 18pt; /* Aumentar o tamanho da fonte no cabeçalho */
+    }
+
+    section {
+        margin: 10px; /* Aumentar o espaçamento ao redor da seção em telas menores */
+        padding: 10px; /* Ajustar o espaçamento interno da seção */
+        max-width: 100%; /* Ajuste da largura máxima da seção para telas menores */
+    }
+
+    .card {
+        max-width: 100%; /* Limita a largura máxima do card a 100% na parte responsiva */
+    }
+
+    footer {
+        font-size: 12pt; /* Reduzir o tamanho da fonte no rodapé */
+    }
+
+    img {
+        display: block; /* Para centralizar a imagem horizontalmente */
+        margin: 0 auto; /* Centralizar a imagem horizontalmente */
+    }
+}
